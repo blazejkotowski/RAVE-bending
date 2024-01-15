@@ -20,8 +20,8 @@ DILATIONS = [
 ]
 RATIOS = [4, 2, 2, 2, 2] # Large
 # RATIOS = [4, 4, 4, 2] # small
-CAPACITY = 128 # Large
-# CAPACITY = 96 # SMALL
+# CAPACITY = 128 # Large
+CAPACITY = 96 # SMALL
 NOISE_AUGMENTATION = 0
 
 core.AudioDistanceV1.log_epsilon = 1e-7
